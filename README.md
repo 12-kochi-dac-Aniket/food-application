@@ -21,3 +21,16 @@ validation
 config
 cors
 nodemon
+
+
+
+<b>Quickstart</b>
+Connect MongoDB database
+backend/config/default.json
+
+{
+	"mongoURI":
+  	"mongodb+srv://<userName>:<password>@<clusterUrl>/<defaultDatabaseName>?retryWrites=true&w=majority"
+}
+
+In backend/ run command npm run server
